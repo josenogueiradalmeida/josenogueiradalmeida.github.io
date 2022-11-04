@@ -9,3 +9,20 @@ body {
     grid-gap: 3ch;
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));     
 }
+.grid > div {
+    border-radius: .5rem;
+    padding: 3rem;
+    height: 100%;
+}
+.blue-cards > div {
+    background-color: #002776;
+    color: #fff;
+}
+.light-cards > div {
+    background-color: whitesmoke;
+    color: #212529;
+}
+.dark-cards > div {
+    background-color: #212529;
+    color: whitesmoke;
+}
